@@ -1,0 +1,108 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.map {
+  padding-bottom: px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  background-color: #00BBD3;
+  border-radius: 50%;
+}
+
+.li {
+  height: 80px;
+  background-color: #fff;
+}
+
+.arrow-left {
+  padding-top: 10px;
+}
+
+.arrow-left h1 {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  float: left;
+  padding-left: 20px;
+}
+
+.header {
+  padding-top: 10px;
+  height: 60px;
+  background-color: #fff;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+.arrow {
+  width: 20%;
+  float: right;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+.content h1 {
+  padding-top: 20px;
+  font-weight: bold;
+  line-height: 0px;
+  color: #000;
+  font-size: 18px;
+}
+
+.content h3 {
+  padding-top: 20px;
+  font-weight: normal;
+  line-height: 0px;
+  color: #000;
+  font-size: 14px;
+}
+
+.content h4 {
+  padding-top: 20px;
+  font-weight: normal;
+  line-height: 0px;
+  color: #000;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  overflow: hidden;
+}
+
+nav {
+  background-color: #00BBD3;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  height: 60px;
+}
+
+.bus-list {
+  background-color: #fff;
+width: 100%;
+}
+
+.route:hover {
+  background-color: #00BBD3;
+}

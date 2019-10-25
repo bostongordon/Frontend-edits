@@ -11,45 +11,25 @@ body {
   padding-bottom: px;
 }
 
-.circle {
-  height: 50px;
-  width: 50px;
-  background-color: #00BBD3;
-  border-radius: 50%;
+#bus-list {
+  font-size: 18px;
+  color: #333;
+  background-color: #fff;
+  width: 100%;
 }
 
-.li {
+#route {
+  font-size: 14px;
+  color: #333;
   height: 80px;
   background-color: #fff;
 }
 
-.arrow-left {
-  padding-top: 10px;
-}
-
-.arrow-left h1 {
-  font-size: 16px;
-  color: #fff;
-  text-align: center;
-}
-
-.content {
-  width: 80%;
-  float: left;
-  padding-left: 20px;
-}
-
-.header {
-  padding-top: 10px;
-  height: 60px;
+.header h1{
+  font-size: 18px;
+  color: #333;
   background-color: #fff;
-}
-
-.header h1 {
-  font-size: 20px;
-  font-family: roboto, sans-serif;
-  font-weight: bold;
-  color: #000;
+  width: 100%;
 }
 
 .arrow {
@@ -57,30 +37,6 @@ body {
   float: right;
   padding-top: 30px;
   padding-left: 40px;
-}
-
-.content h1 {
-  padding-top: 20px;
-  font-weight: bold;
-  line-height: 0px;
-  color: #000;
-  font-size: 18px;
-}
-
-.content h3 {
-  padding-top: 20px;
-  font-weight: normal;
-  line-height: 0px;
-  color: #000;
-  font-size: 14px;
-}
-
-.content h4 {
-  padding-top: 20px;
-  font-weight: normal;
-  line-height: 0px;
-  color: #000;
-  font-size: 12px;
 }
 
 .container {
@@ -98,10 +54,6 @@ nav {
   height: 60px;
 }
 
-.bus-list {
-  background-color: #fff;
-width: 100%;
-}
 
 .route:hover {
   background-color: #00BBD3;

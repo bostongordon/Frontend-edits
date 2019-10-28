@@ -39,11 +39,8 @@ li {
   display: inline-block;
 }
 
-.header h1{
-  font-size: 18px;
-  color: #333;
-  background-color: #fff;
-  width: 100%;
+#bus li {
+  width: 20%;
 }
 
 .container {
@@ -53,13 +50,10 @@ li {
 }
 
 h1 {
-  padding-right: 10px;
-  padding-top: 10px;
   font-size: 12px
 }
 
 h2 {
-  padding-top: 10px;
   font-size: 10px;
 }
 

@@ -23,14 +23,15 @@ body {
   text-align: center;
 }
 
-#bus {
-  padding-top: 10px;
-  padding-left: 10px;
+.bus {
+  /* padding-top: 10px; */
+  /* padding-left: 10px; */
   font-size: 12px;
   width: 420px;
-  height: 80px;
+  /* height: 80px; */
   color: #333;
   background-color: #fff;
+      padding: 10px;
 }
 
 li {
@@ -38,8 +39,8 @@ li {
   display: inline-block;
 }
 
-#bus li {
-  width: 20%;
+.bus li {
+  /* width: 20%; */
 }
 
 .container {
@@ -91,6 +92,23 @@ span {
     font: 22px, sans-serif;
 }
 
-#bus:hover {
+.bus:hover {
   background-color: #7ABFC8;
+}
+
+.number {
+  width: 20%;
+}
+
+.route {
+   width: 30%;
+}
+
+.duration {
+ width: 30%;
+ padding-left: 40px;
+}
+
+.nav {
+ width: 10%;
 }

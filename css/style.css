@@ -7,15 +7,33 @@ body {
   font-size: 10px;
 }
 
-.map {
-  padding-bottom: px;
+.container {
+  margin: 0 auto;
+  width: 420px;
+  overflow: hidden;
+}
+
+.arrow-left {
+  padding-top: 10px;
+}
+
+.arrow-left h1 {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
 }
 
 #bus {
-  font-size: 14px;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-size: 12px;
+  width: 420px;
+  height: 80px;
   color: #333;
   background-color: #fff;
-  width: 100%;
+}
+
+li {
   position: relative;
   display: inline-block;
 }
@@ -27,17 +45,21 @@ body {
   width: 100%;
 }
 
-.arrow {
-  width: 20%;
-  float: right;
-  padding-top: 30px;
-  padding-left: 40px;
-}
-
 .container {
   margin: 0 auto;
   width: 420px;
   overflow: hidden;
+}
+
+h1 {
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 12px
+}
+
+h2 {
+  padding-top: 10px;
+  font-size: 10px;
 }
 
 nav {
@@ -47,6 +69,19 @@ nav {
   position: fixed;
   width: 420px;
   height: 60px;
+}
+
+.arrow-right {
+  position: relative;
+  float: right;
+  padding-top: 5px;
+  font-size: 10px;
+  color: #333;
+}
+
+span {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .numberCircle {
@@ -61,6 +96,6 @@ nav {
     font: 22px, sans-serif;
 }
 
-.route:hover {
-  background-color: #00BBD3;
+#bus:hover {
+  background-color: #7ABFC8;
 }

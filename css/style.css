@@ -25,8 +25,8 @@ body {
 }
 
 #bus {
+  padding-top: 10px;
   padding-left: 10px;
-  padding-top: 20px;
   font-size: 12px;
   width: 420px;
   height: 80px;
@@ -49,8 +49,9 @@ li {
   overflow: hidden;
 }
 
-h1 {
+li h1 {
   font-size: 12px
+  white-space: nowrap;
 }
 
 h2 {
@@ -69,7 +70,7 @@ nav {
 .arrow-right {
   position: relative;
   float: right;
-  padding-top: 5px;
+  padding-top: 10px;
   font-size: 10px;
   color: #333;
 }
